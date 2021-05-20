@@ -61,13 +61,20 @@ h6{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-.container-fullwidth .returnal-banner{
+.container-fullwidth.nuove-uscite{
+    background-color: #1f1f1f;
+}
+
+.container-fullwidth .returnal-banner, 
+.container-fullwidth .it-takes-banner{
     width: 50%;
+}
+
+.container-fullwidth .returnal-banner{
     margin-top: 250px;
 }
 
 .container-fullwidth .it-takes-banner{
-    width: 50%;
     margin-top: 50px;
 }
 
