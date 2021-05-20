@@ -8,7 +8,7 @@
     background-color: #535758;
 }
 
-.container-fullwidth.jumbotron .btn{
+.container-fullwidth .btn{
     background-color: #f00;
 }
 
@@ -21,6 +21,18 @@ h6{
 }
 
 /* ---------------------------- */
+
+.opacity{
+    opacity: 0.5;
+}
+
+.opacity:hover{
+    opacity: 1;
+}
+
+.img-100w{
+    width: 100%;
+}
 
 .logo-top{
     background-color: #000;
@@ -36,10 +48,17 @@ h6{
     width: 25px;
 }
 
-.container-fullwidth.jumbotron{
-    background-image: url(../img/jumbo-bg.png);
+.container-fullwidth{
     background-position: top center;
     background-size: cover;
+}
+
+.container-fullwidth.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.container-fullwidth.game-featured{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 .container-fullwidth .returnal-banner{
@@ -47,8 +66,9 @@ h6{
     margin-top: 250px;
 }
 
-.img-100w{
-    width: 100%;
+.container-fullwidth .it-takes-banner{
+    width: 50%;
+    margin-top: 50px;
 }
 
 .box-small{
@@ -72,6 +92,14 @@ h6{
     font-weight: 600;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.box-accessori{
+    padding-bottom: 24px;
+}
+
+.box-accessori:first-child{
+    border-bottom: 2px solid #436efa;
 }
 
 
