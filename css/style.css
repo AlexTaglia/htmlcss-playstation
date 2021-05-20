@@ -1,0 +1,15 @@
+/*  */
+
+.navbar-left{
+    flex-grow: 0;
+}
+
+.logo-top{
+    background-color: #000;
+    text-align: end;
+}
+
+.logo-sony{
+    height: 14px;
+    margin: 10px;
+}
