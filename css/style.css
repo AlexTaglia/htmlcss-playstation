@@ -16,6 +16,10 @@ ul{
     font-weight: 600;
 }
 
+h6{
+    color: #436efa;
+}
+
 /* ---------------------------- */
 
 .logo-top{
@@ -43,7 +47,7 @@ ul{
     margin-top: 250px;
 }
 
-.box-small img{
+.img-100w{
     width: 100%;
 }
 
@@ -59,8 +63,17 @@ ul{
 }
 
 .box-small:hover{
-    border-color: #43b7fa;
+    border-color: #436efa;
 }
+
+.content p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 
 
