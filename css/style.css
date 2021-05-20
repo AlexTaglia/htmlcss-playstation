@@ -1,8 +1,22 @@
-/*  */
+/* Riscrittura classi Bootstrap */
 
 .navbar-left{
     flex-grow: 0;
 }
+
+.navbar .btn{
+    background-color: #535758;
+}
+
+.container-fullwidth.jumbotron .btn{
+    background-color: #f00;
+}
+
+ul{
+    font-weight: 600;
+}
+
+/* ---------------------------- */
 
 .logo-top{
     background-color: #000;
@@ -13,3 +27,40 @@
     height: 14px;
     margin: 10px;
 }
+
+.navbar .icon-search{
+    width: 25px;
+}
+
+.container-fullwidth.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top center;
+    background-size: cover;
+}
+
+.container-fullwidth .returnal-banner{
+    width: 50%;
+    margin-top: 250px;
+}
+
+.box-small img{
+    width: 100%;
+}
+
+.box-small{
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.box-small-inner{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box-small:hover{
+    border-color: #43b7fa;
+}
+
+
+

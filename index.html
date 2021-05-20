@@ -7,66 +7,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>PlayStation®5 | Play Has No Limits | PlayStation</title>
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header>
+        <!-- TOP BAR LOGO SONY -->
         <div class="logo-top">
             <img class="logo-sony" src="./img/sony_logo.svg" alt="Logo Sony">
         </div>
 
-        <nav class="navbar navbar-expand-xxl navbar-light bg-light" aria-label="Seventh navbar example">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Seventh navbar example">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/play_logo.svg" alt="Logo Playstation">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false"
+                    data-bs-target="" aria-controls="" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="">
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                        <li class="nav-item dropdown">
+                    <ul class="navbar-nav me-auto mb-xl-0">
+                        <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-giochi"
                                 data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-hardware"
                                 data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-servizi"
                                 data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-novita"
                                 data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-acquisti"
                                 data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown me-3">
                             <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-supporto"
                                 data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
@@ -76,8 +81,8 @@
                     </ul>
 
                     <div class="collapse navbar-collapse navbar-left" id="">
-                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                            <li class="nav-item dropdown">
+                        <ul class="navbar-nav me-auto mb-xl-0">
+                            <li class="nav-item dropdown me-3">
                                 <a class="nav-link dropdown-toggle active" href="#" id="dropdownXxl-myplaystation"
                                     data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownXxl">
@@ -86,19 +91,79 @@
                             </li>
                         </ul>
 
-                        <button type="button" class="btn btn-secondary rounded rounded-pill">Accedi</button>
+                        <button type="button" class="btn btn-secondary rounded rounded-pill me-3">Accedi</button>
 
-
-                        <form>
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                        </form>
+                        <a href=""><img class="icon-search" src="./img/lens.svg" alt="search"></a>
 
                     </div>
                 </div>
             </div>
         </nav>
-
     </header>
+
+    <!-- JUMBOTRON -->
+    <div class="container-fullwidth jumbotron mb-4">
+        <div class="container text-white">
+            <div class="col-12 col-lg-4">
+                <img class="returnal-banner mb-5" src="./img/returnal-hero-banner-logo.png" alt="">
+                <h1 class="mb-5">Rompi il cerchio</h1>
+                <p class="mb-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
+                <button type="button" class="btn btn-danger rounded rounded-pill mb-5">Acquista ora</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secttion box-small games -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+                <div class="box-small">
+                    <div class="box-small-inner">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+                <div class="box-small">
+                    <div class="box-small-inner">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet and clank">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+                <div class="box-small">
+                    <div class="box-small-inner">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+                <div class="box-small">
+                    <div class="box-small-inner">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet and clank">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+                <div class="box-small">
+                    <div class="box-small-inner">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+                <div class="box-small">
+                    <div class="box-small-inner">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet and clank">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
