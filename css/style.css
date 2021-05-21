@@ -8,8 +8,17 @@
     background-color: #535758;
 }
 
-.container-fullwidth.nuove-uscite .btn{
-    background-color: #f00;
+.container-fullwidth.jumbotron .btn,
+.container-fullwidth.game-featured .btn{
+    background-color: rgb(255, 0, 0);
+}
+
+.btn{
+    font-weight: 600;
+}
+
+.play-plus .btn{
+    color: blue;
 }
 
 
@@ -95,6 +104,10 @@ li:hover .dropdown-toggle::after{
     background-color: #161c3b;
 }
 
+footer.container-fullwidth{
+    background-color: #00439c;
+}
+
 .container-fullwidth .returnal-banner, 
 .container-fullwidth .it-takes-banner,
 .container-fullwidth .ps-plus-banner{
@@ -125,6 +138,11 @@ li:hover .dropdown-toggle::after{
     border-color: #436efa;
 }
 
+.box-game{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 .content p{
     color: #707070;
     font-size: 20px;
@@ -141,6 +159,35 @@ li:hover .dropdown-toggle::after{
     border-bottom: 2px solid #436efa;
 }
 
+footer ul{
+    list-style: none;
+}
 
+footer li{
+    padding-bottom: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .text-copy a{
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-sie{
+    height: 48px;
+    /* margin-bottom: 24px; */
+}
+
+.logo-sie img{
+    height: 100%;
+}
 
 
