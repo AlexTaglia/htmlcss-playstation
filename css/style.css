@@ -24,9 +24,22 @@ h6{
 .dropdown-toggle::after{
     color: lightgrey;
     vertical-align: middle;
-    /* width: 3px; */
-    /* height: 5px; */
-    /* background: url ('../img/chevron-down-solid.svg') transparent no-repeat; */
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    content: "\f078";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 14px;
+}
+
+.nav-link{
+    transition: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover,
+li:hover .dropdown-toggle::after{
+    color: #0070d1;
 }
 
 /* ---------------------------- */
@@ -74,9 +87,12 @@ h6{
     background-color: #1f1f1f;
 }
 
-.container-fullwidth.play-plus,
-.container-fullwidth.play-now{
+.container-fullwidth.play-plus{
     background-color: #bebcbb;
+}
+
+.container-fullwidth.play-now{
+    background-color: #161c3b;
 }
 
 .container-fullwidth .returnal-banner, 
