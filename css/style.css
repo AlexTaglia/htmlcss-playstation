@@ -8,9 +8,10 @@
     background-color: #535758;
 }
 
-.container-fullwidth .btn{
+.container-fullwidth.nuove-uscite .btn{
     background-color: #f00;
 }
+
 
 ul{
     font-weight: 600;
@@ -18,6 +19,14 @@ ul{
 
 h6{
     color: #436efa;
+}
+
+.dropdown-toggle::after{
+    color: lightgrey;
+    vertical-align: middle;
+    /* width: 3px; */
+    /* height: 5px; */
+    /* background: url ('../img/chevron-down-solid.svg') transparent no-repeat; */
 }
 
 /* ---------------------------- */
@@ -65,8 +74,14 @@ h6{
     background-color: #1f1f1f;
 }
 
+.container-fullwidth.play-plus,
+.container-fullwidth.play-now{
+    background-color: #bebcbb;
+}
+
 .container-fullwidth .returnal-banner, 
-.container-fullwidth .it-takes-banner{
+.container-fullwidth .it-takes-banner,
+.container-fullwidth .ps-plus-banner{
     width: 50%;
 }
 
@@ -74,7 +89,8 @@ h6{
     margin-top: 250px;
 }
 
-.container-fullwidth .it-takes-banner{
+.container-fullwidth .it-takes-banner, 
+.container-fullwidth .ps-plus-banner{
     margin-top: 50px;
 }
 
