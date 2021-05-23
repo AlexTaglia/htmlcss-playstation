@@ -1,37 +1,7 @@
-/* Riscrittura classi Bootstrap */
-
-.navbar-left{
-    flex-grow: 0;
-}
-
-.navbar .btn{
-    background-color: #535758;
-}
-
-.container-fullwidth.jumbotron .btn,
-.container-fullwidth.game-featured .btn{
-    background-color: rgb(255, 0, 0);
-}
-
-.btn{
-    font-weight: 600;
-}
-
-.play-plus .btn{
-    color: blue;
-}
-
-
-ul{
-    font-weight: 600;
-}
-
-h6{
-    color: #436efa;
-}
+/* Sovrascrittura classi Bootstrap */
 
 .dropdown-toggle::after{
-    color: lightgrey;
+    color: #d3d3d3;
     vertical-align: middle;
     border-top: 0;
     border-right: 0;
@@ -49,6 +19,66 @@ h6{
 .navbar-light .navbar-nav .nav-link.active:hover,
 li:hover .dropdown-toggle::after{
     color: #0070d1;
+}
+
+.navbar-right{
+    flex-grow: 0;
+}
+
+ul{
+    font-weight: 600;
+}
+
+h6{
+    color: #436efa;
+}
+
+/* Riscrittura Buttons Bootstrap */
+
+.btn{
+    font-weight: 600;
+}
+
+.btn-danger{
+    background-color: #f00;
+}
+
+.play-plus .btn-light,
+.play-plus .btn-light:hover{
+    color: #00f;
+}
+
+.btn-secondary{
+    background-color:#363636;
+    transition: .2s;
+}
+
+.button{ /*classe aggiunta*/ 
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 2px;
+    transition: .4s;
+}
+
+.navbar .button:hover{
+    border-color: #808080;
+}
+
+.button:hover .btn-secondary{
+    background-color: #808080;
+}
+
+.jumbotron .button:hover{
+    border-color: #f00;
+}
+
+.content .button:hover{
+    border-color: #00f;
+}
+
+.play-plus .button:hover,
+.play-now .button:hover{
+    border-color: #f8f9fa;
 }
 
 /* ---------------------------- */
@@ -108,9 +138,7 @@ footer.container-fullwidth{
     background-color: #00439c;
 }
 
-.container-fullwidth .returnal-banner, 
-.container-fullwidth .it-takes-banner,
-.container-fullwidth .ps-plus-banner{
+.container-fullwidth [class*="-banner"]{
     width: 50%;
 }
 
@@ -159,6 +187,15 @@ footer.container-fullwidth{
     border-bottom: 2px solid #436efa;
 }
 
+.box-accessori-inner{
+    padding: 0 30px;
+}
+
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 footer ul{
     list-style: none;
 }
@@ -167,7 +204,8 @@ footer li{
     padding-bottom: 15px;
 }
 
-footer a{
+footer a, 
+footer a:hover{
     color: white;
     text-decoration: none;
 }
@@ -176,18 +214,10 @@ footer .text-copy a{
     text-decoration: underline;
 }
 
-footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .logo-sie{
     height: 48px;
-    /* margin-bottom: 24px; */
 }
 
 .logo-sie img{
     height: 100%;
 }
-
-
