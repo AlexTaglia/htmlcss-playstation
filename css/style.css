@@ -29,6 +29,14 @@ ul{
     font-weight: 600;
 }
 
+h1{
+    font-size: 38px;
+}
+
+h2{
+    font-size: 42px;    
+}
+
 h6{
     color: #436efa;
 }
@@ -87,12 +95,12 @@ h6{
     opacity: 0.5;
 }
 
-.opacity:hover{
-    opacity: 1;
-}
-
 .img-100w{
     width: 100%;
+}
+
+.weight-m{
+    font-weight: 500;
 }
 
 .logo-top{
@@ -169,26 +177,24 @@ footer.container-fullwidth{
 .box-game{
     border-radius: 20px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .content p{
     color: #707070;
     font-size: 20px;
-    font-weight: 600;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .box-accessori{
     padding-bottom: 24px;
+    border-bottom: 2px solid #fff;
 }
 
-.box-accessori:first-child{
+.box-accessori:hover{
+    opacity: 1;
     border-bottom: 2px solid #436efa;
-}
-
-.box-accessori-inner{
-    padding: 0 30px;
 }
 
 footer{
